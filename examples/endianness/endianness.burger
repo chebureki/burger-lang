@@ -1,0 +1,10 @@
+//TODO: find a nice way to specify endianness
+
+
+//ideas:
+
+//1. my favourite :^)
+option endianness little
+
+//2.
+endianness little

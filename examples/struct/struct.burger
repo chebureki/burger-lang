@@ -1,0 +1,32 @@
+Polygon :: struct{
+    Vector3 :: struct{
+        x : u8
+        y : u8
+        z : u8
+    }
+
+    vertexA : Vector3
+    vertexB : Vector3
+    vertexC : Vector3
+}
+
+polygon1 : Polygon
+
+//anonymous structs are also a thing :O
+polygon2 : struct {
+    vertexA : struct{
+        x : u8
+        y : u8
+        z : u8
+    }
+    vertexB : struct{
+        x : u8
+        y : u8
+        z : u8
+    }
+    vertexC : struct{
+        x : u8
+        y : u8
+        z : u8
+    }
+}

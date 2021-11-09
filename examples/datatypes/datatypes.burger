@@ -1,0 +1,15 @@
+//unsigned
+a : u8
+b : u16
+c : u32
+d : u64
+
+//signed
+e : s8
+f : s16
+g : s32
+h : s64
+
+//floating point
+i : f32
+j : f64

@@ -1,0 +1,7 @@
+//asserts are kinda experimental, low priority
+
+fileMagic : asciiNT = "ELF"
+
+a: u8 = 0xAA //assert first byte is 0xAA
+b: u16 = 0xBBBB //assert that 0xBBBB follows
+c: u32 = 0xCCCCCCCC //...
